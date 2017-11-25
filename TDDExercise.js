@@ -53,4 +53,16 @@ describe("Unit Testing Framework", function() {
 		expect(logicCheck(3 > 7)).to.be.false;
 	});
 
-} );
+		var input = [1, 2, 3, 4, 5, 6];
+		var output = [10 ,20, 30, 40, 50, 60];
+		function testForLoop(input, output){
+			it('shows we can use a for loop to repeat tasks', function() {
+				expect(input * 10).to.equal(output);
+			});
+		}
+		for(var i = 0; i < input.length; i++){
+			testForLoop(input[i], output[i]);
+		}
+
+});
+
