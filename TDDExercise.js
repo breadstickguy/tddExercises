@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
 
+
 describe("Unit Testing Framework", function() {
 	it("should properly run tests!", function () {
 		expect(true).to.be.true;
@@ -28,15 +29,22 @@ describe("Unit Testing Framework", function() {
 	 	//Write a function that adds numbers together
 		expect(sum(4,2)).to.equal(6);
 		expect(sum(4,5)).to.equal(9);
-	// 	//Write a function that subtracts numbers
+	
+	 	//Write a function that subtracts numbers
 	// 	expect(subtract(10,5)).to.equal(5);
 	//	expect(subtract(15,6)).to.equal(9);
+	
 	//	Write a function that multiplies two numbers
 	// 	expect(multiply(3,8)).to.equal(24);
+	//  expect(multiply(2,7)).to.equal(14);
+	
+	// 	Write a function that divides two numbers
 	// 	expect(divide(9,3)).to.equal(3);
+	//	expect(divide(8,4)).to.equal(2);
 	});
 
-	// //Write a function to check basic logic
+	// 	Write a function to check basic logic
+	
 	// it('shows that we can use conditional logic properly', function() {
 	// 	expect(logicCheck(5 == 5)).to.be.true;
 	// 	expect(logicCheck(3 > 7)).to.be.false;
